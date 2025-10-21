@@ -100,8 +100,8 @@ src/
 
 ### Demo Credentials
 
-- **Email**: `user@example.com`
-- **Password**: `123456`
+- **Email**: `sheharyaar.furqan@camp1.tkxel.com`
+- **Password**: `Tkxel123$`
 
 ## Features in Detail
 
