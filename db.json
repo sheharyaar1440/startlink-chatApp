@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "sheharyaar.furqan@camp1.tkxel.com",
+      "password": "Tkxel123$",
+      "name": "Sheharyaar Furqan"
+    }
+  ],
+  "consignees": [
+    {
+      "id": "1",
+      "name": "Sheri",
+      "phone": "03001234567",
+      "chatStatus": "open",
+      "lastMessage": "Hello, I need help with my order",
+      "isGenAI": true
+    },
+    {
+      "id": "2",
+      "name": "Sara Ahmed",
+      "phone": "03007654321",
+      "chatStatus": "closed",
+      "lastMessage": "Thanks for your help!",
+      "isGenAI": false
+    },
+    {
+      "id": "3",
+      "name": "Ali Raza",
+      "phone": "03112345678",
+      "chatStatus": "open",
+      "lastMessage": "When will my package arrive?",
+      "isGenAI": false
+    },
+    {
+      "id": "4",
+      "name": "Fatima Noor",
+      "phone": "03219876543",
+      "chatStatus": "open",
+      "lastMessage": "I have a question about my delivery",
+      "isGenAI": true
+    }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "consigneeId": 1,
+      "sender": "user",
+      "message": "Hello, I need help with my order",
+      "timestamp": "2025-10-16T10:00:00Z",
+      "isGenAI": true
+    },
+    {
+      "id": "2",
+      "consigneeId": 1,
+      "sender": "agent",
+      "message": "Hi! How can I help you today?",
+      "timestamp": "2025-10-16T10:00:30Z",
+      "isGenAI": true
+    },
+    {
+      "id": "3",
+      "consigneeId": 1,
+      "sender": "user",
+      "message": "Thanks for your message! I received it.",
+      "timestamp": "2025-10-16T10:01:00Z",
+      "isGenAI": true
+    },
+    {
+      "id": "4",
+      "consigneeId": 2,
+      "sender": "user",
+      "message": "Hi there!",
+      "timestamp": "2025-10-16T09:00:00Z",
+      "isGenAI": false
+    },
+    {
+      "id": "5",
+      "consigneeId": 2,
+      "sender": "agent",
+      "message": "Hello! How may I assist you?",
+      "timestamp": "2025-10-16T09:00:20Z",
+      "isGenAI": false
+    },
+    {
+      "id": "6",
+      "consigneeId": 2,
+      "sender": "user",
+      "message": "I wanted to check my order status",
+      "timestamp": "2025-10-16T09:00:45Z",
+      "isGenAI": false
+    },
+    {
+      "id": "7",
+      "consigneeId": 2,
+      "sender": "agent",
+      "message": "Let me check that for you. Your order is out for delivery!",
+      "timestamp": "2025-10-16T09:01:15Z",
+      "isGenAI": false
+    },
+    {
+      "id": "8",
+      "consigneeId": 2,
+      "sender": "user",
+      "message": "Thanks for your help!",
+      "timestamp": "2025-10-16T09:01:30Z",
+      "isGenAI": false
+    },
+    {
+      "id": "9",
+      "consigneeId": 3,
+      "sender": "user",
+      "message": "When will my package arrive?",
+      "timestamp": "2025-10-16T11:00:00Z",
+      "isGenAI": false
+    },
+    {
+      "id": "10",
+      "consigneeId": 4,
+      "sender": "user",
+      "message": "I have a question about my delivery",
+      "timestamp": "2025-10-16T12:00:00Z",
+      "isGenAI": true
+    },
+    {
+      "id": "f934",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hello",
+      "timestamp": "2025-10-16T13:47:54.750Z",
+      "isGenAI": false
+    },
+    {
+      "id": "1665",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "my name is umer",
+      "timestamp": "2025-10-16T13:48:06.121Z",
+      "isGenAI": false
+    },
+    {
+      "id": "7054",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "how are you",
+      "timestamp": "2025-10-16T13:48:20.149Z",
+      "isGenAI": false
+    },
+    {
+      "id": "3c8e",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "hello brother",
+      "timestamp": "2025-10-16T13:49:08.238Z",
+      "isGenAI": false
+    },
+    {
+      "id": "00f8",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "hi",
+      "timestamp": "2025-10-16T13:49:15.879Z",
+      "isGenAI": false
+    },
+    {
+      "id": "c270",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "hello",
+      "timestamp": "2025-10-16T13:49:19.043Z",
+      "isGenAI": false
+    },
+    {
+      "id": "3410",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "hyyyy",
+      "timestamp": "2025-10-16T13:49:22.475Z",
+      "isGenAI": false
+    },
+    {
+      "id": "f83a",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "helllo",
+      "timestamp": "2025-10-16T13:49:25.728Z",
+      "isGenAI": false
+    },
+    {
+      "id": "42de",
+      "consigneeId": "2",
+      "sender": "agent",
+      "message": "hy",
+      "timestamp": "2025-10-16T13:49:29.350Z",
+      "isGenAI": false
+    },
+    {
+      "id": "7644",
+      "consigneeId": "1",
+      "sender": "agent",
+      "message": "I understand your concern. Let me help you with that.",
+      "timestamp": "2025-10-16T14:23:16.400Z",
+      "isGenAI": true
+    },
+    {
+      "id": "32a1",
+      "consigneeId": "4",
+      "sender": "agent",
+      "message": "Thank you for reaching out! I'm here to help.",
+      "timestamp": "2025-10-16T14:23:34.680Z",
+      "isGenAI": true
+    },
+    {
+      "id": "a19b",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hello",
+      "timestamp": "2025-10-16T14:36:47.555Z",
+      "isGenAI": false
+    },
+    {
+      "id": "9b7d",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hy sherry",
+      "timestamp": "2025-10-16T14:36:54.656Z",
+      "isGenAI": false
+    },
+    {
+      "id": "66d4",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hello",
+      "timestamp": "2025-10-16T14:36:57.472Z",
+      "isGenAI": false
+    },
+    {
+      "id": "9a31",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hello world",
+      "timestamp": "2025-10-16T14:37:07.556Z",
+      "isGenAI": false
+    },
+    {
+      "id": "801f",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hello",
+      "timestamp": "2025-10-16T14:37:10.524Z",
+      "isGenAI": false
+    },
+    {
+      "id": "aab5",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hy",
+      "timestamp": "2025-10-16T14:37:15.794Z",
+      "isGenAI": false
+    },
+    {
+      "id": "45fe",
+      "consigneeId": "4",
+      "sender": "agent",
+      "message": "ok",
+      "timestamp": "2025-10-18T15:45:01.221Z",
+      "isGenAI": true
+    },
+    {
+      "id": "c2cd",
+      "consigneeId": "1",
+      "sender": "agent",
+      "message": "adsjkjsdf",
+      "timestamp": "2025-10-20T07:52:11.982Z",
+      "isGenAI": true
+    },
+    {
+      "id": "8ac6",
+      "consigneeId": "1",
+      "sender": "agent",
+      "message": "tes",
+      "timestamp": "2025-10-20T08:21:22.242Z",
+      "isGenAI": true
+    },
+    {
+      "id": "4df1",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "hjjs",
+      "timestamp": "2025-10-20T13:46:51.926Z",
+      "isGenAI": false
+    },
+    {
+      "id": "4c18",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "kjdasjkhads",
+      "timestamp": "2025-10-20T13:46:54.993Z",
+      "isGenAI": false
+    },
+    {
+      "id": "9307",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "basdhfkjadsf",
+      "timestamp": "2025-10-20T13:46:58.770Z",
+      "isGenAI": false
+    },
+    {
+      "id": "d1ce",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "kajdshfkjahsdfjkasdf",
+      "timestamp": "2025-10-20T13:47:02.267Z",
+      "isGenAI": false
+    },
+    {
+      "id": "ac27",
+      "consigneeId": "3",
+      "sender": "agent",
+      "message": "akjdkfhajhsf",
+      "timestamp": "2025-10-20T13:47:06.419Z",
+      "isGenAI": false
+    }
+  ]
+}
